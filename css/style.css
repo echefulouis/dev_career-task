@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+
+/* General Button Styling */
+.button{
+    background-color: #9B9BCA;
+    padding: 0 66px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 72px;
+    align-self: center;
+    height: 72px;
+    width:117px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding-top: 22px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Header and Navigation Styling */
+header{
+    width: 100%;
+    height: 727px;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* header styling */
+header .nav-bar{
+    
+}
+/* logo amd log image Styling */
+.logo{
+    float: left;
+    display: flex;
+    margin-top: 5px;
+}
+.logo-image{
+    background-image: url('../images/logo.svg');
+    width: 72px;
+    height: 72px;
+    margin-right: 21px;
+    
+}
+.logo-title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 72px;
+}
+
+/* Navigation Styling */
+nav ul{
+    float: right;
+}
+
+/* Navigation list styling */
+nav ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 72px;
+    float: left;
+    margin-left: 30px;
+}
+.header-text{
+    margin-top: 180px;
+}
+.header-text h3{
+    font-family: 'DM Serif Display', serif;
+    color: #696A86;
+    width: 50%;
+    font-size: 58px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.header-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #696A86;
+    width:751px;
+    margin-top: 30px;
+}
+.header-text p{
+    margin-top: 30px;
+}
+/* Section Styling */
+section{
+    color: #626780;
+}
+
+/* section top1 styling */
+.top1{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 95px;
+}
+.top1 h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+.top p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.box{
+    margin: 0 35px 0 0;
+}
+
+/* Styling for Services */
+.top2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.top2 h4{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+.top2{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 162px;
+    margin-bottom: 221px;
+}
+
+/* Styling for Services Icon */
+
+/* Web design */
+.top2-icon1{
+    background-image: url('../images/web\ design.svg');
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+    margin: 0 auto;
+}
+/* Health and study icon */
+.top2-icon2{
+    background-image: url('../images/health\ and\ study.svg');
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+    margin: 0 auto;
+}
+
+/* Packaging icon*/
+.top2-icon3{
+    background-image: url('../images/packaging.svg');
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+    margin: 0 auto;
+}
+
+/* Content writing */
+.top2-icon4{
+    background-image: url('../images/content\ writing.svg');
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+    margin: 0 auto;
+}
+
+/* Top3 Styling */
+.top3{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 184px;
+}
+.top3-text{
+    width: 50%;
+    padding-right: 40px;
+    margin:auto 0;
+}
+.top3-text h4{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top3-p{
+    margin-top: 16px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: start;
+    width: 449px;
+}
+.top3-image {
+    background-image: url(../images/Spiral\ image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:576px;
+    height: 388px;
+    width: 50%;
+}
+
+
+/* Styling for Top4 */
+#top4{
+    width: 70%;
+    margin: 0 auto;
+}
+#top4 p{
+    font-family: 'PT Serif', serif;
+    width: 550px;
+    font-size: 48px;
+    color: #402B2B;
+}
+
+/* Media Styling for the Asian lady  */
+.media{
+    margin: 78px 0;
+    width: 100%;
+    height: 780px;
+    background-image: url(../images/Media.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Acodion section */
+.man-section{
+    position: relative;
+    background-image: url(../images/man\ section.png);
+    max-width: 100%;
+    height: 1490px;
+    display: block;
+    margin-left: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.btn-text{
+    width: 70%;
+    margin:134px auto;
+    text-align: center;
+}
+.btn-text p{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.btn-text h3{
+    margin-top: 167px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Styling for the cards */
+.cards{
+    width: 70%;
+    margin:0 auto;
+}
+.card-wrapper{
+    display: flex;
+}
+.card1{
+    width: 70%;
+    height: 545px;
+    margin: 0 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card2{
+    width: 70%;
+    height: 545px;
+    margin: 0 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card-image1{
+    background-image: url(../images/customer-card.png);
+    width: 70%;
+    height: 149px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:50px auto;
+}
+.card-image2{
+    background-image: url(../images/provider.png);
+    width: 70%;
+    height: 149px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:50px auto;
+}
+.card-wrapper h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.card-wrapper h5{
+    width: 70%;
+    height: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #626780;
+    margin: 0 auto;
+    margin-top:30px;
+}
+.card-content{
+    position:relative;
+}
+.card-btn1{
+    background: #9595C9;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    height: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 30%;
+    height: 60px;
+    margin: 0 auto; 
+    margin-top: 100px;
+}
+.card-btn2{
+    background: #F01F35;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    height: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 30%;
+    height: 60px;
+    margin: 0 auto; 
+    margin-top: 100px;
+}
+.woman-section{
+    background-image: url(../images/Woman\ section.png);
+    max-width: 100%;
+    height: 1490px;
+    display: block;
+    margin-right: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.join{
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    margin-left: 15%;
+    width: 35%;
+    color: #402B2B;
+    
+}
+
+/* Styling for the contact form */
+.form{
+    margin-top: 20px;
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.form-content{
+   padding: 140px 160px;
+}
+
+.form-content p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    color: #626780;
+}
+.name {
+    height: 50px;
+    width: 350px;
+    background: #FFFFFF;
+    border: 2px solid #9595C9;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.2);
+    border-radius: 10px;
+}
+.password{
+    height: 40px;
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #9595C9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+.form h5 {
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 50px;
+    display: block;
+    background: #9595C9;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+span{
+    color: #F01F35;
+}
+.footer{
+    position: abolute;
+    margin-top: 80px;
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
